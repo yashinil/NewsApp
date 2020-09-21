@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 const fetch = require('node-fetch');
 
-var guardianKey='1d34bae1-e778-41ee-8ca1-6dc3c5a0772c';
-var nytimesKey='vaPsrdsEpKCk4Vvo6nwfMVLN6TkGlFZz';
+var guardianKey='###################################';
+var nytimesKey='###################################';
 router.get('/', function(req, res, next) {
   if(req.query.api=='true'){
     console.log("Guardian");
