@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-dark{
+  background-image: linear-gradient(to right, #12203f, #3b5dae);
+  color: white;
+  font-size: small;
+}
+.justify-content-end{
+  font-size: 15px;
+  padding-right: 10px;
+  vertical-align: center;
+}
+.toggle-switch{
+  vertical-align: middle;
+  /* margin-right: 10px; */
+}
+.navbar-bookmark{
+  cursor: pointer;
+}
+.auto-suggest{
+  min-width: 285px;
+  color: black;
+}
+img{
+  object-fit: cover;
+}
+.medium-card{
+  margin: 15px 0px 15px 0px;
+  box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 3px;
+  padding: 15px 0px 15px 0px;
+  cursor: pointer;
+}
+.medium-card h4{
+  font-style: italic;
+  font-weight: bold;
+}
+.medium-card-share{
+  cursor: pointer;
+}
+.medium-card-text{
+  font-size: 15px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.medium-card-info{
+  margin-top: 10px;
+}
+.medium-card-date{
+  float: left;
+  font-size: 15px;
+  font-style: italic;
+}
+.medium-card-badge{
+  float: right;
+}
+.share-modal-sharevia{
+  text-align: center;
+  font-size: large;
+}
+.share-modal-icons{
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+.modal-button{
+  padding: 0px;
+  margin: 0px;
+  font-size: x-large;
+  cursor: pointer;
+}
+.modal-backdrop.show {
+  opacity: 0.1;
+}
+.modal-bookmark-title{
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.big-card{
+  margin: 15px 0px 15px 0px;
+  box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 3px;
+  padding: 15px 0px 35px 0px;
+}
+.big-card h4{
+  padding: 0px 15px 0px 15px;
+  font-style: italic;
+}
+.big-card-info{
+  padding: 10px 20px 10px 20px;
+}
+.big-card-info-buttons{
+  text-align: right;
+}
+.big-card-bookmark{
+  color: red;
+  text-align: right;
+}
+.big-card-image{
+  padding: 0px 15px;
+}
+.big-card-image img{
+  width: 100%;
+}
+.big-card-description{
+  padding: 0px 15px;
+  font-size: 14px;
+  text-align: justify;
+}
+.big-card-expand{
+  float: right;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.passing-info{
+  display: none;
+}
+.spinner-loader{
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.spinner-text{
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.page-title{
+  padding-top: 5px;
+}
+
+.page-title-nothing{
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.small-card{
+  margin-bottom: 15px;
+  box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 3px;
+  padding: 15px;
+  cursor: pointer;
+}
+.small-card h5{
+  font-style: italic;
+  font-weight: bold;
+}
+.small-card-share{
+  cursor: pointer;
+}
+.small-card-text{
+  font-size: 15px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  /*
+  overflow: hidden;
+  height: 4.6em;
+  text-overflow: ellipsis-lastline;
+  line-clamp: 3;
+  */
+}
+.small-card-info{
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.small-card-date{
+  float: left;
+  font-size: 15px;
+  font-style: italic;
+}
+.small-card-badge{
+  float: right;
+  padding-left: 5px;
+}
+.Toastify__toast.Toastify__toast--default{
+  color: black;
+  text-align: left;
+}
